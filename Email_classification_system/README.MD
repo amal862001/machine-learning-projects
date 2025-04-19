@@ -54,7 +54,6 @@ Key requirements:
   - Handles high-dimensional data well
   - Resistant to overfitting
   - Good performance with text classification tasks
-  - Provides probability scores for predictions
 
 ### 3.3 Training Process
 ```python
@@ -95,16 +94,6 @@ def train_model(X_train, y_train, save_dir='model'):
    - Challenge: Processing large emails in real-time
    - Solution: Optimized regex matching and model inference
 
-### 4.3 Future Improvements
-1. Enhanced PII Detection:
-   - Add support for international phone formats
-   - Implement ML-based entity recognition
-   - Add more PII types
-
-2. System Optimization:
-   - Implement batch processing
-   - Add caching for frequent requests
-   - Model compression for faster inference
 
 ## 5. API Usage
 
