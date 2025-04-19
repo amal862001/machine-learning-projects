@@ -31,7 +31,7 @@ Key requirements:
   }
   ```
 - Entity tracking includes position, classification, and original text
-- Masked text replaces PII with standardized tags (e.g., [MASKED_full_name])
+- Masked text replaces PII with standardized tags (e.g., [full_name])
 
 ### 2.2 Classification System
 - Two-step process:
